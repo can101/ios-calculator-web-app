@@ -1,0 +1,37 @@
+body {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone {
+/*background: #c41b1b;*/
+    position: relative;
+}
+
+.phone-frame {
+    height: 95vh;
+}
+
+
+.phone-inner-content {
+    /*display: none;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 50px 35px 30px;
+}
+
+.phone-inner-background {
+    position: absolute;
+    background: #baecd2;
+    z-index: -1;
+    width: 97%;
+    height: 97%;
+    top: 1%;
+    left: 2%;
+    border-radius: 50px;
+}
