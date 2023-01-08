@@ -7,7 +7,7 @@ const Index = () => {
         <div className="container">
             <div className={"phone"}>
                 <div className={"phone-inner-content"}>
-                    <h1>Device</h1>
+                    div.
                 </div>
                 <div className={"phone-inner-background"}>
                 </div>
